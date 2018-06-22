@@ -2,20 +2,20 @@
 This page has information relating to developers and what they can and cannot use.
   
 ### Contents:
-System Varibles  
-Modules  
-Built-In Calls and Labels  
+#### System Varibles  
+#### Modules  
+#### Built-In Calls and Labels  
 
 ## System Varibles
 NOS has a decent amount of system varibles and labels that cannot be overwritten. Below is a list of them and their location (what subprogram they are in) and whether or not they can be overwritten.  
   
-NOSSPRIT Varibles  
+### NOSSPRIT    
 No Varibles  
   
-NOSHEAD  
+### NOSHEAD  
 No Varibles  
   
-NOSSRH  
+### NOSSRH  
 FILES - This has the program names and the data. This is in the format of a 17 byte set as seen below:  - DO NOT OVERWRITE -  
   0-7 - Program Name  
   8 - Zero Byte (help with reading program name)  
@@ -34,16 +34,16 @@ OFFSET - Offset for Copy() - Okay to Overwrite -
 SIZE - Size of first program, this may be overwritten after the program is switched  
 ARC - Archive status of the first program, this may be overwritten after the program is switched  
   
-NOSGUI  
+### NOSGUI  
 No varibles  
   
-NOSCTRL
+### NOSCTRL
 G - getKey varible, overwrite at your own risk  
 prgmTEMP - Temporary program for running ASM and BASIC programs  
 prgmASM - ASM program data for running  
 SLOT - Selected Program Slot, overwrite at your own risk  
   
-NOSSET
+### NOSSET
 SET, G - Temporary value, may be overwritten after run  
 L5 - Color / Settings Data, formated as below:  
   L5(0) - Primary Background  
@@ -52,10 +52,10 @@ L5 - Color / Settings Data, formated as below:
   L5(9) - Secondary Text  
 LOC - Location of cursor on menu  
 
-NOSPROG  
+### NOSPROG  
 No Varibles  
   
-NOSSUB  
+### NOSSUB  
 B, ICONX, ICONY, ICONCHAR, ICONCOLOR, SET, STATUS, POS - Temporary Varibles, may be overwritten  
 COLORS - Has the conversions for OS to ICE colors, DO NOT OVERWRITE
 DISTRO - Current Distro name, can be set  
@@ -75,13 +75,13 @@ NOSSUB - Has subprograms for shell, including Icon display, GUI setup, and data 
 ## Built-In Calls and Labels  
 Here are the Calls and Labels that you can use:  
   
-Calls:  
+### Calls:  
 TOOLBAR - This has the toolbar for pinned programs,  
 GUISTART - Sets up the base for the GUI, i.e no data, just background  
 ICONDISPLAY - Displays DCS header icon (if applicable)  
 DATASETUP - Has the setup for the originla values of the varibles  
   
-Labels:  
+### Labels:  
 TOP - Top of the program  
 SEARCH - Before the Search module, in prgmNOS  
 GUI - Before the GUI module, in prgmNOS  
