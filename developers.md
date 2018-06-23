@@ -28,7 +28,7 @@ I, F, X, D, P - Temporary Varibles, you can overwrite these after
 TBPRGMS - Total BASIC Programs - DO NOT OVERWRITE -  
 TAPRGMS - Total ASM Programs - DO NOT OVERWRITE -  
 BASIC - List of BASIC programs, follows above syntax (see FILES)  
-ASM - List of ASM programs, follows above syntax (see FILES)
+ASM - List of ASM programs, follows above syntax (see FILES)  
 TPRGMS - Total Program Count - DO NOT OVERWRITE -  
 OFFSET - Offset for Copy() - Okay to Overwrite -  
 SIZE - Size of first program, this may be overwritten after the program is switched  
