@@ -6,7 +6,7 @@ System Varibles
 Modules  
 Built-In Calls and Labels  
 
-## System Varibles
+## System Variables
 NOS has a decent amount of system varibles and labels that cannot be overwritten. Below is a list of them and their location (what subprogram they are in) and whether or not they can be overwritten.  
   
 ### NOSSPRIT    
