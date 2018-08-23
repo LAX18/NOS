@@ -2,7 +2,7 @@
 This page has information relating to developers and what they can and cannot use.
   
 ### Contents:
-System Varibles  
+System Variables  
 Modules  
 Built-In Calls and Labels  
 
@@ -10,10 +10,10 @@ Built-In Calls and Labels
 NOS has a decent amount of system varibles and labels that cannot be overwritten. Below is a list of them and their location (what subprogram they are in) and whether or not they can be overwritten.  
   
 ### NOSSPRIT    
-No Varibles  
+No Variables  
   
 ### NOSHEAD  
-No Varibles  
+No Variables  
   
 ### NOSSRH  
 FILES - This has the program names and the data. This is in the format of a 17 byte set as seen below:  - DO NOT OVERWRITE -  
@@ -35,10 +35,10 @@ SIZE - Size of first program, this may be overwritten after the program is switc
 ARC - Archive status of the first program, this may be overwritten after the program is switched  
   
 ### NOSGUI  
-No varibles  
+No variables  
   
 ### NOSCTRL
-G - getKey varible, overwrite at your own risk  
+G - getKey variable, overwrite at your own risk  
 prgmTEMP - Temporary program for running ASM and BASIC programs  
 prgmASM - ASM program data for running  
 SLOT - Selected Program Slot, overwrite at your own risk  
@@ -53,7 +53,7 @@ L5 - Color / Settings Data, formated as below:
 LOC - Location of cursor on menu  
 
 ### NOSPROG  
-No Varibles  
+No Variables  
   
 ### NOSSUB  
 B, ICONX, ICONY, ICONCHAR, ICONCOLOR, SET, STATUS, POS - Temporary Varibles, may be overwritten  
