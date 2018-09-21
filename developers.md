@@ -2,18 +2,18 @@
 This page has information relating to developers and what they can and cannot use.
   
 ### Contents:
-System Varibles  
+System Variables  
 Modules  
 Built-In Calls and Labels  
 
-## System Varibles
-NOS has a decent amount of system varibles and labels that cannot be overwritten. Below is a list of them and their location (what subprogram they are in) and whether or not they can be overwritten.  
+## System Variables
+NOS has a decent amount of system variables and labels that cannot be overwritten. Below is a list of them and their location (what subprogram they are in) and whether or not they can be overwritten.  
   
 ### NOSSPRIT    
-No Varibles  
+No Variables  
   
 ### NOSHEAD  
-No Varibles  
+No Variables  
   
 ### NOSSRH  
 FILES - This has the program names and the data. This is in the format of a 17 byte set as seen below:  - DO NOT OVERWRITE -  
@@ -24,7 +24,7 @@ FILES - This has the program names and the data. This is in the format of a 17 b
   12 - Icon Status (:DCS Header)  
   13 - Size  
   16 - ASM or BASIC  
-I, F, X, D, P - Temporary Varibles, you can overwrite these after  
+I, F, X, D, P - Temporary Variables, you can overwrite these after  
 TBPRGMS - Total BASIC Programs - DO NOT OVERWRITE -  
 TAPRGMS - Total ASM Programs - DO NOT OVERWRITE -  
 BASIC - List of BASIC programs, follows above syntax (see FILES)  
@@ -35,7 +35,7 @@ SIZE - Size of first program, this may be overwritten after the program is switc
 ARC - Archive status of the first program, this may be overwritten after the program is switched  
   
 ### NOSGUI  
-No varibles  
+No variables  
   
 ### NOSCTRL
 G - getKey varible, overwrite at your own risk  
@@ -53,10 +53,10 @@ L5 - Color / Settings Data, formated as below:
 LOC - Location of cursor on menu  
 
 ### NOSPROG  
-No Varibles  
+No Variables  
   
 ### NOSSUB  
-B, ICONX, ICONY, ICONCHAR, ICONCOLOR, SET, STATUS, POS - Temporary Varibles, may be overwritten  
+B, ICONX, ICONY, ICONCHAR, ICONCOLOR, SET, STATUS, POS - Temporary Variables, may be overwritten  
 COLORS - Has the conversions for OS to ICE colors, DO NOT OVERWRITE
 DISTRO - Current Distro name, can be set  
 VERSION - Current NOS build version, can be set  
@@ -79,7 +79,7 @@ Here are the Calls and Labels that you can use:
 TOOLBAR - This has the toolbar for pinned programs,  
 GUISTART - Sets up the base for the GUI, i.e no data, just background  
 ICONDISPLAY - Displays DCS header icon (if applicable)  
-DATASETUP - Has the setup for the originla values of the varibles  
+DATASETUP - Has the setup for the originla values of the variables  
   
 ### Labels:  
 TOP - Top of the program  
